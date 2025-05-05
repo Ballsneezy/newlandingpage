@@ -9,4 +9,107 @@ body {
 .header {
 
     background-color: #1F2937;
-    color: r
+    color: red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-link {
+    display: flex;
+   
+
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    
+    
+}
+.content-left {
+
+    max-width: 500px;
+    margin: 0;
+}
+.img-placeholder {
+
+    background-color: gray;
+  
+}
+
+
+.box-page{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.boxes-content{
+    display: flex;
+    
+    
+}
+
+.boxes {
+    display: flex;
+    max-width: 200px;
+    text-align: center;
+   
+}
+.text {
+    width: 100px;
+    height: 100px;
+    
+    border: 1px solid blue;
+}
+
+
+.quote {
+
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 300px;
+
+}
+
+.alert{
+
+    background-color: wheat;
+    height: 300px;
+
+}
+
+
+
+
+.footer {
+
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1F2937;
+        color: white;
+        padding: 24px;
+        font-size: 12px;
+}
